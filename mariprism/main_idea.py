@@ -20,8 +20,10 @@ Aim to create a python package to have beautiful and fancy colormaps for matplot
 5. ...
 
 -------------------------------------------
-Useful info to proceed:
+To proceed (ToDo's):
 https://www.analyticsvidhya.com/blog/2020/09/colormaps-matplotlib/
+
+Design structure of package and features we want
 
 -------------------------------------------
 Requirements: 
@@ -30,6 +32,7 @@ Requirements:
 - Nice tutorial + webpage
 - Cool logo
 - Easy to use 
+
 
 
 -------------------------------------------
