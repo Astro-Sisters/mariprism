@@ -24,6 +24,15 @@ Useful info to proceed:
 https://www.analyticsvidhya.com/blog/2020/09/colormaps-matplotlib/
 
 -------------------------------------------
+Requirements: 
+- Use only classes XD 
+- Pip installable 
+- Nice tutorial + webpage
+- Cool logo
+- Easy to use 
+
+
+-------------------------------------------
 Authors: P. Cáceres-Burgos & P. Palma-Bifani
 '''
 
