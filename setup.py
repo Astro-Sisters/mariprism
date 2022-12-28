@@ -3,9 +3,9 @@ from setuptools import setup
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(name='ForMoSA',
-      version='v6.0.0',
-      description='ForMoSA: Forward Modeling Tool for Spectral Analysis',
+setup(name='mariprism',
+      version='v1.0.0',
+      description='mariprism: the prettiest colors, colormaps and ideas for your plots!',
       long_description=long_description,
       author='P. Cáceres-Burgos, P. Palma-Bifani',
       url='https://github.com/Astro-Sisters/mariprism',
