@@ -1,17 +1,14 @@
 """
-
-Authors : P. Cáceres-Burgos, P. Palma-Bifani
-
 Here is the complete list and construction of gradients of Mariprism, 
 
-
+Authors : P. Cáceres-Burgos, P. Palma-Bifani
 """
+# Import general 
 import numpy as np
+import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap,LinearSegmentedColormap
 from matplotlib.patches import Rectangle
-import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
-
 
 def make_gradient(color_list, name=''):
     """
@@ -54,7 +51,7 @@ def make_gradient(color_list, name=''):
             tcolor[:, 0] = np.linspace(color1[0], color2[0], N) 
             tcolor[:, 1] = np.linspace(color1[1], color2[1], N) 
             tcolor[:, 2] = np.linspace(color1[2], color2[2], N) 
-            tcolor[:, 3] = np.linspace(0.9, 0.9, N) 
+            tcolor[:, 3] = np.linspace(1, 1, N) 
 
             tcolor_cmp= ListedColormap(tcolor) # transision ready for color1->color2
 
@@ -79,7 +76,7 @@ def make_gradient(color_list, name=''):
     return maricmap
 
 
-def plot_colortable(colors, sort_colors=True, emptycols=0):
+def plot_colortable(colors, sort_colors=False, emptycols=0):
     """
     
     function that shows the colors available
@@ -113,8 +110,8 @@ def plot_colortable(colors, sort_colors=True, emptycols=0):
         names = list(colors)
 
     n = len(names)
-    ncols = 4 - emptycols
-    nrows = n // ncols + int(n % ncols > 0)
+    ncols = int(1) #4 - emptycols
+    nrows = int(n)#5#n # // ncols + int(n % ncols > 0)
 
     width = cell_width * 4 + 2 * margin
     height = cell_height * nrows + 2 * margin
