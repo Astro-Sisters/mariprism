@@ -1,4 +1,3 @@
-'''
 mariprism v1.0
 
 -------------------------------------------
@@ -37,7 +36,3 @@ Requirements:
 
 -------------------------------------------
 Authors: P. Cáceres-Burgos & P. Palma-Bifani
-'''
-
-## Imports
-import numpy as np
