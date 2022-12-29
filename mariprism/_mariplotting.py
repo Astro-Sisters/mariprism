@@ -7,9 +7,6 @@ Authors : P. Cáceres-Burgos, P. Palma-Bifani
 '''
 # Imports
 import numpy as np
-import matplotlib.pyplot as plt
-
-
 
 
 '''
@@ -19,7 +16,7 @@ Content:
 '''
 
 # Functions & classes
-class ComplexRadar():
+class plot_radar():
     # Original from Damian Cummins: https://github.com/DamianCummins/statsbomb-football-event-visualisations/blob/master/Statsbomb%20Womens%20World%20Cup%202019%20visualisation.ipynb
     # Adapted by: P. Palma-Bifani
 
